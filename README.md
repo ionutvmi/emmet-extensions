@@ -8,7 +8,7 @@
 3. Restart your editor
 
 
-##$ Useful tools
+## Useful tools
 - [Text Inliner](http://run.plnkr.co/plunks/OoUR0rGDEGj2sRBQqoSY/)
 
 
