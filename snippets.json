@@ -1,0 +1,27 @@
+{
+
+	"html": {
+		"snippets": {
+			"if": "if (${1:condition}) {\n\t|\n}",
+			"try": "try {\n\t|\n} catch(e) {\n\t|\n}",
+			"ife": "if (${1:condition}) {\n\t|\n} else {\n\t|\n}",
+			"fn": "function ${1:name}(|) {\n\t|\n}",
+			"mfn": "${1:name} : function ${1:name}(|) {\n\t|\n}",
+			"ifn": "(function ${1:name}(|) {\n\t|\n})();",
+			"db": "debugger;",
+			"r": "var ${1:app} = require('|');",
+			"doc": "/**\n * |\n *\n */",
+			"@a": "@author ",
+			"@r": "@returns ",
+			"@p": "@param ${1:name} : ${2:String} ${3:description}",
+			"me": "module.exports = {\n\t|\n};",
+			"$t": "var $t = \\$(this)",
+			"sw": "switch(${1:test}) {\n\tcase ${2:val}:\n\t|\nbreak;\n\tdefault:\n\t|\nbreak;\n}",
+			"t": "this",
+			"iei": "if (${1:condition}) {\n\t|\n} else if(${2:condition}) {\n\t|\n}"
+		}
+
+	}
+
+
+}
