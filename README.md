@@ -9,7 +9,7 @@
 
 
 ## Useful tools
-- [Text Inliner](http://run.plnkr.co/plunks/OoUR0rGDEGj2sRBQqoSY/)
+- [Text Inliner](http://embed.plnkr.co/OoUR0rGDEGj2sRBQqoSY/preview)
 
 
 ### Author

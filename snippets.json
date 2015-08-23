@@ -21,6 +21,9 @@
 			"iei": "if (${1:condition}) {\n\t|\n} else if(${2:condition}) {\n\t|\n}"
 		}
 
+	},
+	"js": {
+		"extend": "html"
 	}
 
 
