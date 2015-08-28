@@ -1,6 +1,12 @@
-var app = angular.module('text-inliner', []);
+var app = angular.module('text-inliner', ['ui.codemirror']);
 
 app.controller('MainCtrl', function($scope) {
+
+  $scope.editorOptions = {
+      lineNumbers: true,
+      mode: 'javascript',
+      keyMap: 'sublime'
+  };
 
   $scope.encode = function() {
     var newVal = $scope.data || '';
