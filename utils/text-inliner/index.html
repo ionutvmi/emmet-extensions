@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="text-inliner">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container" ng-controller="MainCtrl">
+    <form>
+      <h1>Text Inliner</h1>
+
+      <div class="form-row">
+        <h4>Input</h4>
+        <textarea class="form-control" placeholder="Insert the text here" name="data" ng-model="data" rows="10"></textarea>
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" ng-model="escapeSymbols">
+          <span>escape $ and | symbols</span>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <button ng-click="encode()" class="btn btn-default" type="button">Encode</button>
+        <button ng-click="decode()" class="btn btn-default" type="button">Decode</button>
+      </div>
+
+
+      <div class="form-row">
+        <h4>Output</h4>
+        <textarea ng-model="output" readonly="" class="form-control" rows="10"></textarea>
+      </div>
+    </form>
+
+
+    <footer class="text-center">
+      <p>Made with &hearts; by <a href="https://github.com/ionutvmi">Mihai Ionut Vilcu</a>
+      </p>
+    </footer>
+
+    <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+</html>
