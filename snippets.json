@@ -28,6 +28,11 @@
 			"def": "define([\n\t'${1:backbone}'\n], function(${2:Backbone}) {\n\t|\n});",
 			"bv": "var view = Backbone.View.extend({\n\ttemplate: '|',\n\n\tinitialize: function (options) {\n\t\tthis.options = options \\|\\| {};\n\t},\n\n\trender: function() {\n\t\tvar html = this.template();\n\n\t\tthis.\\$el.html(html);\n\n\t\treturn this;\n\t}\n});\n\nreturn view;",
 
+			"----------": "Jasmine snippets",
+			"it": "it('should |', function() {\n\t|\n});",
+			"desc": "describe('|', function () {\n\t|\n});",
+
+
 			"----------": ""
 		}
 
