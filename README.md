@@ -1,16 +1,6 @@
-# Emmet Extensions
+# Emmet Extensions Utilities
 
-> Emmet extensions for personal use.
-
-### Installation
-1. Download the files from this repo and save them in a folder on your computer
-2. Go to Emmet setting and set the `extensions_path` to that folder
-3. Restart your editor
-
-
-## Useful tools
-- [Text Inliner](http://embed.plnkr.co/OoUR0rGDEGj2sRBQqoSY/preview)
-
+> This branch is used to host the emmet-extensions utilities.
 
 ### Author
 
