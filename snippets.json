@@ -87,6 +87,13 @@
             "xit" : "\nxit('${1:should behave...}', function() {\n\t$2\n});\n\t",
 
 
+            "----------": "Demandware snippets",
+            "fcnt": "URLUtils.httpContinue()",
+            "http": "URLUtils.url('|')",
+            "msg": "Resource.msg('|', '|', null);",
+
+
+
 			"----------": ""
 		}
 
