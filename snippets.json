@@ -78,7 +78,7 @@
             "tc": "expect(${1:array}).toContain(${2:item});$0\n\t",
             "tbu": "expect($1).toBeUndefined();$0\n\t",
             "te": "expect($1).toEqual($2);$0\n\t",
-            "thbc": "expect($1).oHaveBeenCalled();$0\n\t",
+            "thbc": "expect($1).toHaveBeenCalled();$0\n\t",
             "thbcw": "expect($1).toHaveBeenCalledWith(${2:params});$0\n\t",
             "tm": "expect($1).toMatch($2);$0\n\t",
             "tt": "expect($1).toThrow();$0\n\t",
